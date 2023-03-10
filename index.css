@@ -1,0 +1,85 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.header {
+  background-color: #131921;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header img {
+  width: 100px;
+  padding: 10px;
+}
+.contain {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.contain i {
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+}
+.contain-data p {
+  color: #ccc;
+}
+.contain-data h4 {
+  color: #fff;
+  font-size: 14px;
+  line-height: 15px;
+}
+.india {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+.india img {
+  width: 25px;
+}
+
+.search-bar {
+  border: 1px solid black;
+  display: flex;
+  border-radius: 4px;
+}
+
+.search-bar p {
+  color: #0f1111;
+  background-color: #f3f3f3;
+  padding: 10px;
+  border-right: 1px solid #a8a8a8;
+}
+.search-bar p:hover {
+  background-color: #d8d8d8;
+  cursor: pointer;
+}
+.search-bar input {
+  border: none;
+  outline: none;
+  padding: 8px 16px;
+  width: 500px;
+}
+.search-bar i {
+  color: #0f1111;
+  background-color: #f5bd55;
+  padding: 10px;
+}
+.search-bar i:hover {
+  background-color: #f5b63f;
+  cursor: pointer;
+}
+
+.contact {
+  background-color: #232f3e;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  padding: 16px;
+}
+.links a {
+  color: white;
+  text-decoration: none;
+}
